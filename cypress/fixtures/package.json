@@ -1,0 +1,19 @@
+{
+  "name": "books-back",
+  "version": "1.0.0",
+  "description": "This repository was created in order to training to automation testing practices from scratch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matein092/books-back.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matein092/books-back/issues"
+  },
+  "homepage": "https://github.com/Matein092/books-back#readme"
+}
