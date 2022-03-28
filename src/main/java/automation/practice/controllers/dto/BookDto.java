@@ -14,11 +14,18 @@ public class BookDto {
     @Setter
     private String id;
 
-    @Getter
     @Setter
     private String name;
 
-    @Getter
     @Setter
     private String author;
+
+    public String getName(){
+        return name;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+    
 }

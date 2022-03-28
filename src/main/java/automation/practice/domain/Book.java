@@ -1,6 +1,6 @@
 package automation.practice.domain;
 
-import lombok.Getter;
+
 import lombok.Setter;
 
 public class Book {
@@ -11,11 +11,19 @@ public class Book {
     this.author = author;
   }
 
-  @Getter
+ 
   @Setter
   private String name;
 
-  @Getter
+
   @Setter
   private String author;
+
+public String getName() {
+    return name;
+}
+public String getAuthor(){
+  return author;
+}
+
 }
